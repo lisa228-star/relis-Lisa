@@ -429,3 +429,29 @@ footer{
 .dropdown-menu{
   background-color: #FFB7B7;
 }
+/* Темная тема*/
+body.dark-theme {
+  background-color: rgb(130, 61, 115);
+  color: white;
+}
+
+
+body.dark-theme .direction-text {
+  color: white;
+}
+
+body.dark-theme h1 {
+  color: white;
+}
+
+body.dark-theme h2 {
+  color: white;
+}
+
+#theme-toggle-button {
+  cursor: pointer;
+}
+
+#toggle {
+  display: none;
+}
